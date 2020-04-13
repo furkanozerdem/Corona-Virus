@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/accordinTotalDeath"
+        android:title="Toplam Ölüm Sayısına Göre" />
+    <item
+        android:id="@+id/accordingTotalRecovered"
+        android:title="Toplam İyileşme Sayısına Göre" />
+    <item
+        android:id="@+id/accordinTotalCase"
+        android:title="Toplam Vaka Sayısına Göre" />
+    <item
+        android:id="@+id/accordinNewCase"
+        android:title="Yeni Vaka Sayısına Göre" />
+</menu>

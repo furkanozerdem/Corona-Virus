@@ -3,6 +3,8 @@ package com.furkanozerdem.coronalive.Model;
 import com.google.gson.annotations.SerializedName;
 import com.google.gson.annotations.Expose;
 
+import java.util.List;
+
 
 public class Ulkeler {
 
@@ -85,7 +87,7 @@ public class Ulkeler {
         this.newDeaths = newDeaths;
     }
 
-    public Integer getTotalDeaths() {
+    public int getTotalDeaths() {
         return totalDeaths;
     }
 
